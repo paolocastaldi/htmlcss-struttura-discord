@@ -45,11 +45,22 @@ header{
 
 .box1{
     background-color: rgba(0,0,139,255);
-    padding: 10px;
+    padding: 30px;
 }
 .box2{
     background-color:white;
-    padding: 10px;
+    padding: 30px;
+}
+
+.box3{
+    background-color: rgba(211,211,211,255);
+    padding: 30px;
+
+}
+.box4{
+    background-color:white;
+    padding: 30px;
+
 }
 
 .fuchsia-centered-box{
@@ -60,13 +71,13 @@ header{
     border: 2px dashed black;
 }
 .light-blue-box{
-    width: 70%;
+    width: 60%;
     height: 300px;
     background-color: rgba(30,144,255,255);
     border: 2px dashed black;
 }
 .pink-box{
-    width: 30%;
+    width: 40%;
     height: 300px;
     background-color: pink;
     border: 2px dashed black;

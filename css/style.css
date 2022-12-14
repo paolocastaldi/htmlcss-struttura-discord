@@ -20,6 +20,7 @@ header{
     display: flex;
     
 }
+
 .header-sx,
 .header-mid,
 .header-dx{
@@ -47,6 +48,7 @@ header{
     background-color: rgba(0,0,139,255);
     padding: 30px;
 }
+
 .box2{
     background-color:white;
     padding: 30px;
@@ -57,6 +59,7 @@ header{
     padding: 30px;
 
 }
+
 .box4{
     background-color:white;
     padding: 30px;
@@ -107,7 +110,6 @@ header{
 .sub-container{
     display: flex;
     width: 67%;
-    
 }
 
 .pink-box2{
@@ -115,6 +117,7 @@ header{
     height: 300px;
     background-color: rgba(240,128,128,255);
     border: 1px dashed black;
+   
 }
 
 .acqua-box{
@@ -122,4 +125,28 @@ header{
     height: 300px;
     width: 25%;
     border: 1px dashed white;
+}
+
+footer{
+    background-color: rgba(35,39,42,255);
+    padding: 30px;
+}
+
+.footer-sub-container{
+    display: flex;
+    height: 100px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+hr{
+    color: gray;
+}
+
+.little-pink-footer-box{
+    background-color: pink;
+    padding: 10px;
+    border: 1px dashed black;
 }

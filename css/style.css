@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header-mid ul li{
+    list-style: none;
+    display: inline;
+}
+
+header{
+    background-color: rgba(173,216,230,255);
+    padding: 10px;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+.header-sx,
+.header-mid,
+.header-dx{
+    padding: 10px;
+}
+
+.header-sx{
+    background-color: rgba(218,165,32,255);
+    width: 20%;
+}
+.header-mid{
+    background-color: rgba(218,165,32,255);
+    width: 59%;
+    text-align: center;
+}
+
+.header-dx{
+    background-color: rgba(218,165,32,255);
+    width: 20%;
+    text-align: right;
+}

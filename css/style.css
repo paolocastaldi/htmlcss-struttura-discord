@@ -18,11 +18,13 @@ header{
     width: 800px;
     margin: auto;
     display: flex;
+    
 }
 .header-sx,
 .header-mid,
 .header-dx{
     padding: 10px;
+    border: 2px dashed black;
 }
 
 .header-sx{
@@ -31,7 +33,7 @@ header{
 }
 .header-mid{
     background-color: rgba(218,165,32,255);
-    width: 59%;
+    width: 60%;
     text-align: center;
 }
 
@@ -39,4 +41,33 @@ header{
     background-color: rgba(218,165,32,255);
     width: 20%;
     text-align: right;
+}
+
+.box1{
+    background-color: rgba(0,0,139,255);
+    padding: 10px;
+}
+.box2{
+    background-color:white;
+    padding: 10px;
+}
+
+.fuchsia-centered-box{
+    background-color: rgba(238,130,238,255);
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    border: 2px dashed black;
+}
+.light-blue-box{
+    width: 70%;
+    height: 300px;
+    background-color: rgba(30,144,255,255);
+    border: 2px dashed black;
+}
+.pink-box{
+    width: 30%;
+    height: 300px;
+    background-color: pink;
+    border: 2px dashed black;
 }

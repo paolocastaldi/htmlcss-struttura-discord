@@ -24,7 +24,7 @@ header{
 .header-mid,
 .header-dx{
     padding: 10px;
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
 
 .header-sx{
@@ -68,17 +68,58 @@ header{
     height: 300px;
     width: 500px;
     margin: auto;
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
+
 .light-blue-box{
     width: 60%;
     height: 300px;
     background-color: rgba(30,144,255,255);
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
+
 .pink-box{
     width: 40%;
     height: 300px;
     background-color: pink;
-    border: 2px dashed black;
+    border: 1px dashed black;
+}
+
+.box5{
+    background-color:rgba(211,211,211,255);    
+    padding: 30px;
+
+}
+
+.box6{
+    background-color: rgba(35,39,42,255);  
+    padding: 10px;
+
+}
+
+.green-centered-box{
+    background-color: green;
+    height: 600px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.sub-container{
+    display: flex;
+    width: 67%;
+    
+}
+
+.pink-box2{
+    width: 33%;
+    height: 300px;
+    background-color: rgba(240,128,128,255);
+    border: 1px dashed black;
+}
+
+.acqua-box{
+    background-color: rgba(32,178,170,255);
+    height: 300px;
+    width: 25%;
+    border: 1px dashed white;
 }
